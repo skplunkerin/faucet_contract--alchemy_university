@@ -25,6 +25,27 @@ let's jump in! 👨‍🔧👩‍🔧
 - [Hardhat](https://hardhat.org/): Ethereum developer suite full of tools that
   make the developer experience more efficient.
 
+## Project setup:
+
+1. `git clone`
+
+2. `cp .env-sample .env` and update the ENV variable values
+
+3. `npm run compile`
+
+4. `npm run deploy_goerli`
+
+### Goerli deployed smart contract
+
+My [deployed contract](https://goerli.etherscan.io/address/0x094100Af680907A46415E53C444b98fBdfaEc195)
+on the Goerli testnet.
+
+> **NOTE:**
+> I haven't tested that it works yet as to continue with the course, but unless
+> the testnet is setup to pull ETH out of thin air, this is not a real faucet
+> and will not work since there's no ETH balance on the contract for
+> `withdraw()` to send ETH.
+
 ## Sample Hardhat Project
 
 > Created from `npx hardhat`.
